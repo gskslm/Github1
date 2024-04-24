@@ -7,4 +7,5 @@ name: Hello
 
       steps:
       - name: Print hello world
+      uses: actions/checkout@v3
        run: echo "Hello world"

@@ -1,11 +1,10 @@
 name: Hello
 on: push
 
-  jobs:
-    Hello:
-      runs-on: ubuntu-latest
+jobs:
+  Hello:
+    runs-on: ubuntu-latest
 
-      steps:
-      - name: Print hello world
-      uses: actions/checkout@v3
-       run: echo "Hello world"
+    steps:
+    - name: Print hello world
+      run: echo "Hello world"
